@@ -29,6 +29,10 @@ h1 {
 
 .img-home {
   margin: 15px;
+  transition: transform 0.2s;
+}
+.img-home:hover {
+  transform: scale(1.05);
 }
 
 .img {
